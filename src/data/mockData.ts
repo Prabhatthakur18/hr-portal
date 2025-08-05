@@ -3,52 +3,83 @@ import { Company, Employee } from '../types';
 export const companies: Company[] = [
   {
     id: '1',
-    name: 'TechCorp Solutions',
-    industry: 'Technology',
-    employees: 1250,
-    location: 'San Francisco, CA',
+    name: 'RP AUTOSTYLES',
+    industry: 'AUTOMOTIVE',
+    employees: 120,
+    location: 'NOIDA, UTTAR PRADESH',
     established: '2015',
-    revenue: '$50M',
-    description: 'Leading software development company specializing in enterprise solutions and cloud technologies.'
+    revenue: '50M',
+    description: 'Leading Seat Cover Manufacturing Company Deals in the Automotive Seat Covers With The Best Quality Materials.'
   },
   {
     id: '2',
-    name: 'Global Manufacturing Inc',
-    industry: 'Manufacturing',
-    employees: 2800,
-    location: 'Detroit, MI',
+    name: 'VIN COORPORATION',
+    industry: 'MANUFACTURING',
+    employees: 280,
+    location: 'DEHRADUN, UTTRAKHAND',
     established: '1998',
-    revenue: '$120M',
-    description: 'Automotive parts manufacturer with operations across North America and Europe.'
+    revenue: '120M',
+    description: 'Automotive Seat Cover manufacturer with operations across Across India and Saudi Arabia.'
   },
   {
     id: '3',
-    name: 'FinanceFirst Bank',
-    industry: 'Financial Services',
-    employees: 950,
-    location: 'New York, NY',
+    name: 'YS CORPORATION',
+    industry: 'MANUFACTURING',
+    employees: 95,
+    location: 'DEHRADUN, UTTRAKHAND',
     established: '2005',
-    revenue: '$80M',
-    description: 'Regional bank offering comprehensive financial services to businesses and individuals.'
+    revenue: '80M',
+    description: 'YS Corporations Deals in the indias Best Seat Original Equipment Manufacturer'
+  },
+    {
+    id: '4',
+    name: 'SRN ENTERPRISES',
+    industry: 'MANUFACTURING',
+    employees:120,
+    location: 'DEHRADUN, UTTRAKHAND',
+    established: '2015',
+    revenue: '70M',
+    description: 'SRN Corporations Deals in the indias Best Seat Original Equipment Manufacturer'
+  },
+  
+    {
+    id: '5',
+    name: 'VIN ENTERPRISES',
+    industry: 'MANUFACTURING',
+    employees: 130,
+    location: 'DEHRADUN, UTTRAKHAND',
+    established: '2010',
+    revenue: '100M',
+    description: 'VIN EnterPrises Deals in the indias Best Seat Original Equipment Manufacturer'
+  },
+    {
+    id: '6',
+    name: 'AMATO AUTOMOTIVE PVT LTD',
+    industry: 'AUTOMOTIVE',
+    employees: 20,
+    location: 'DEHRADUN, UTTRAKHAND',
+    established: '2020',
+    revenue: '180M',
+    description: 'YS Corporations Deals in the indias Best Seat Original Equipment Manufacturer'
   }
 ];
 
 export const employees: Employee[] = [
   {
     id: '1',
-    name: 'Sarah Johnson',
-    position: 'Senior Software Engineer',
+    name: 'Prabhat Thakur',
+    position: 'Software Engineer',
     department: 'Engineering',
-    email: 'sarah.johnson@techcorp.com',
+    email: 'prabhat.thakur@autoform.com',
     phone: '+1 (555) 123-4567',
-    joinDate: '2021-03-15',
+    joinDate: '2024-12-8',
     companyId: '1',
-    avatar: 'https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop',
+    avatar: 'https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop',
     about: {
-      bio: 'Experienced software engineer with 8+ years in full-stack development. Passionate about creating scalable solutions and mentoring junior developers.',
-      skills: ['React', 'Node.js', 'Python', 'AWS', 'Docker', 'PostgreSQL'],
-      experience: '8 years in software development, previously at Microsoft and startups',
-      education: 'MS Computer Science, Stanford University'
+      bio: 'Experienced software engineer with 1+ years in full-stack development. Passionate about creating scalable solutions and mentoring junior developers.',
+      skills: ['React', 'Node.js', 'TypeScript', 'AWS', 'Three.js', 'Java Script', 'Java','WordPress', 'PHP',],
+      experience: '8 Months in software development, previously at Railware and startups',
+      education: 'B.tech Computer Science and Engineering'
     },
     kras: [
       {
@@ -63,7 +94,7 @@ export const employees: Employee[] = [
         title: 'Team Performance',
         description: 'Improve team velocity by 25%',
         target: 'End of 2024',
-        status: 'pending'
+        status: 'Done'
       }
     ],
     kpis: [
@@ -87,14 +118,14 @@ export const employees: Employee[] = [
     careerRoadmap: [
       {
         id: '1',
-        position: 'Senior Software Engineer',
+        position: 'Software Engineer',
         timeline: 'Current',
         requirements: ['Technical Leadership', 'Mentoring'],
         status: 'current'
       },
       {
         id: '2',
-        position: 'Staff Engineer',
+        position: 'Senior Software Engineer',
         timeline: '6-12 months',
         requirements: ['Architecture Design', 'Cross-team Collaboration'],
         status: 'next'
